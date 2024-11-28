@@ -17,3 +17,49 @@ body {
   font-weight: 400;
   background-color: #162831;
 }
+
+.header-nav {
+  color: #162831;
+  padding: 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-menu ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header-menu li {
+  margin: 0px 25px;
+}
+.header-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.cta-button {
+  background-color: #018abe;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
