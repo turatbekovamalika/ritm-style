@@ -18,9 +18,17 @@ body {
   background-color: #162831;
 }
 
-.header-nav {
-  color: #162831;
-  padding: 0px 20px;
+.container {
+  max-width: 1346px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.header {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+.header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,35 +39,35 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.header-menu ul {
+.header-menu {
   margin: 0;
   padding: 0;
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 50px;
 }
-.header-menu li {
-  margin: 0px 25px;
-}
-.header-menu a {
-  text-decoration: none;
+.header-menu-link {
   color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  font-size: 16px;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 135%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
 }
-
 .header-cta {
-  background-color: #018abe;
-  display: block;
+  padding: 9px 15px;
   color: #ffffff;
-  text-align: center;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 3px;
+  font-family: "Roboto", serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
   text-decoration: none;
-  padding: 10px 10px;
-  font-size: 16px;
-  font-weight: bold;
+  background-color: #018abe;
+  border-radius: 3px;
 }
